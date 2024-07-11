@@ -1,0 +1,43 @@
+@import url("./media.css");
+@import url("./variaveis.css");
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap');
+body{
+  width: 100%;
+  height: 100vh;
+  background-color: var(--var-cor-fundo);
+  font-family: 'Fraunces', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section{
+  align-items: center;
+  text-align: center;
+  border-radius: 10px;
+  padding: 24px;
+  background-color: white;
+}
+
+img{
+  width: 20%;
+}
+
+#information{
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+}
+
+h1{
+  font-weight: 700;
+}
+
+p{
+  font-size: 14px;
+}
+
+a{
+  text-decoration: none;
+  color: var(--var-cor-texto);
+}
