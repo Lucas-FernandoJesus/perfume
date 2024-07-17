@@ -7,12 +7,12 @@
 }
 
 body{
-  /*width: 100vw;
+  width: 100vw;
   height: 100vh;
   font-family: 'Montserrat';
   display: flex;
   justify-content: center;
-  align-items: center;*/
+  align-items: center;
   background-color: var(--var-cor-fundo);
 }
 /*
@@ -86,4 +86,4 @@ h1{
 a{
   text-decoration: none;
   color: var(--var-cor-titulo);
-} */
+}*/
