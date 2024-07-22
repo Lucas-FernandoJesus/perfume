@@ -15,22 +15,20 @@ body{
   align-items: center;
   background-color: var(--var-cor-fundo);
 }
-/*
-#switch_image{
-  width: 20%;
-  height: 60%;
-  border-radius: 14px 0 0 14px;
+p {
+  color: var(--var-cor-texto);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 22px;
 }
 
-#container{
-  background-color: white;
-  width: 20%;
-  height: 60%; 
-  border-radius: 0 14px 14px 0;
-  
+h1 {
+  color: var(--var-cor-titulo);
+  font-weight: 700;
+  font-size: 35px;
 }
 
-#cash{
+#cash {
   display: flex;
   text-align: center;
   align-items: center;
@@ -38,52 +36,38 @@ body{
   gap: 20px;
 }
 
-
-#cash h2{
+#cash h2 {
   color: var(--var-cor-verde);
   font-size: 34px;
 }
 
-#cash p{
+#cash p {
   text-decoration: line-through;
 }
 
-p{
-  color: var(--var-cor-texto);
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 22px;
-}
-
-h1{
-  color: var(--var-cor-titulo);
-  font-weight: 700;
-  font-size: 35px;
-}
-
-#buy{
+#buy {
   background-color: var(--var-cor-verde);
   color: var(--var-cor-fundo-secundario);
   border-radius: 8px;
   text-align: center;
 }
 
-#buy img{
+#buy img {
   margin-right: 2%;
 }
 
-#buy:hover{
+#buy:hover {
   background-color: var(--var-cor-verde-hover);
   transition: 1s;
   cursor: pointer;
 }
 
-.attribution{
+.attribution {
   color: var(--var-cor-titulo);
   text-align: center;
 }
 
-a{
+a {
   text-decoration: none;
   color: var(--var-cor-titulo);
-}*/
+}
